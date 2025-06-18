@@ -26,7 +26,6 @@ function generateWordList() {
     answer.id = `answer${index}`; 
     answer.style.color = "blue"; 
     block.appendChild(answer); 
-
     container.appendChild(block); 
   }); 
 } 
